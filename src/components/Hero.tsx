@@ -1,17 +1,21 @@
-import { Flex, Heading } from '@chakra-ui/react'
+import { Heading, Box, Text } from "@chakra-ui/react";
 
 export const Hero = ({ title }: { title: string }) => (
-  <Flex
-    justifyContent="center"
-    alignItems="center"
-    height="100vh"
-    bgGradient="linear(to-l, #7928CA, #FF0080)"
-    bgClip="text"
-  >
-    <Heading fontSize="6vw">{title}</Heading>
-  </Flex>
-)
+    <Box>
+        <Heading
+            bgGradient="linear(to-l, #7928CA, #FF0080)"
+            bgClip="text"
+            fontSize="7.5vw"
+        >
+            {title}
+        </Heading>
+        <Text>
+            Hi, this is the jnfgd jh kjghgfkj kjg gkgfj fkj dk ksjs kjs kjskjs
+            kj sskj kjskjs kjs kjs j s kdsk kj k skj
+        </Text>
+    </Box>
+);
 
 Hero.defaultProps = {
-  title: 'with-chakra-ui-typescript',
-}
+    title: "Japroz Saini",
+};
