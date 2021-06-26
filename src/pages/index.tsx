@@ -73,7 +73,7 @@ const Index = () => {
                         </Text>
                     </Box>
                     <Spacer />
-                    <Image width="sm" src="/illus.png" />
+                    <img width="300px" src="/illus.png" />
                 </Flex>
                 <Button marginTop={{ base: "4vh", lg: "-10px" }}>
                     Get in touch
@@ -228,7 +228,7 @@ const Index = () => {
             </Box>
             <Box padding="20px" width="100vw" backgroundColor="blackAlpha.600">
                 <Center padding="30px">
-                    <Image width="90px" src="/logo.svg" />
+                    <img width="90px" src="/logo.svg" />
                 </Center>
                 <Flex wrap="wrap" justifyContent="center">
                     <Text
