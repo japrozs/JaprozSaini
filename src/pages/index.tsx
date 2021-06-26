@@ -22,7 +22,7 @@ const Index = () => {
     return (
         <>
             <Center paddingBottom="0px" paddingTop="20px">
-                <Image width="90px" src="/logo.svg" />
+                <Image width="90px" src="../../public/logo.svg" />
             </Center>
             <Box padding={{ base: "20px", lg: "5vw" }}>
                 <Flex
@@ -73,7 +73,7 @@ const Index = () => {
                         </Text>
                     </Box>
                     <Spacer />
-                    <img width="300px" src="/illus.png" />
+                    <img width="300px" src="../../public/illus.png" />
                 </Flex>
                 <Button marginTop={{ base: "4vh", lg: "-10px" }}>
                     Get in touch
@@ -228,7 +228,7 @@ const Index = () => {
             </Box>
             <Box padding="20px" width="100vw" backgroundColor="blackAlpha.600">
                 <Center padding="30px">
-                    <img width="90px" src="/logo.svg" />
+                    <img width="90px" src="../../public/logo.svg" />
                 </Center>
                 <Flex wrap="wrap" justifyContent="center">
                     <Text

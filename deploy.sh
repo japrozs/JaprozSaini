@@ -1,3 +1,4 @@
+#! /usr/local/bin/fish
 yarn build
 yarn export
 yarn deploy
