@@ -7,6 +7,7 @@ export default class Document extends NextDocument {
         return (
             <Html>
                 <Head>
+                    <script defer data-domain="japrozsaini.me" src="https://plausible.io/js/plausible.js"></script>
                     <title>Japroz Saini</title>
                 </Head>
                 <body>
